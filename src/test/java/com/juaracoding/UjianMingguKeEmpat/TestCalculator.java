@@ -36,15 +36,15 @@ public class TestCalculator {
     }
 
     @Test (priority = 1)
-    public void testAdd() {
-        calculator.calcAdd();
+    public void testTambah() {
+        calculator.calctambah();
         System.out.println("Result = "+calculator.getTxtResult());
         Assert.assertEquals(calculator.getTxtResult(), "3");
     }
 
     @Test (priority = 2)
-    public void testSubstract() {
-        calculator.calcSubstract();
+    public void testkurang() {
+        calculator.calckurang();
         System.out.println("Result = "+calculator.getTxtResult());
         String actual = calculator.getTxtResult();
         char charActual = actual.charAt(0);
@@ -56,15 +56,15 @@ public class TestCalculator {
     }
 
     @Test (priority = 3)
-    public void testMultiply() {
-        calculator.calcMultiply();
+    public void testkali() {
+        calculator.calckali();
         System.out.println("Result = "+calculator.getTxtResult());
         Assert.assertEquals(calculator.getTxtResult(), "2");
     }
 
     @Test (priority = 4)
-    public void testDivide() {
-        calculator.calcDivide();
+    public void testbagi() {
+        calculator.calcbagi();
         System.out.println("Result = "+calculator.getTxtResult());
         Assert.assertEquals(calculator.getTxtResult(), "0.5");
     }

@@ -33,28 +33,28 @@ public class Calculator {
     @AndroidFindBy(id = "com.google.android.calculator:id/result_final")
     private MobileElement result;
 
-    public void calcAdd() {
+    public void calctambah() {
         btnOne.click();
         btnPlus.click();
         btnTwo.click();
         btnEquals.click();
     }
 
-    public void calcSubstract(){
+    public void calckurang(){
         btnOne.click();
         btnMinus.click();
         btnTwo.click();
         btnEquals.click();
     }
 
-    public void calcMultiply(){
+    public void calckali(){
         btnOne.click();
         btnMultiply.click();
         btnTwo.click();
         btnEquals.click();
     }
 
-    public void calcDivide(){
+    public void calcbagi(){
         btnOne.click();
         btnDivide.click();
         btnTwo.click();
